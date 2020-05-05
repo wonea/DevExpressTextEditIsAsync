@@ -28,7 +28,7 @@
                          UpdateSourceTrigger="PropertyChanged"
                          NotifyOnValidationError="True" IsAsync="True">
                     <Binding.ValidationRules>
-                        <local:TestValidationRule ValidationStep="UpdatedValue" ValidatesOnTargetUpdated="True" />
+                        <local:TestValidationRule ValidationStep="UpdatedValue" />
                     </Binding.ValidationRules>
                 </Binding>
             </dxe:TextEdit.Text>
